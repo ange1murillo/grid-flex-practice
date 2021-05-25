@@ -1,0 +1,36 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    ///Manual Control
+    // grid-template-rows: 40px 450px 50px; 
+    ///Auto Control
+    grid-auto-rows: minmax(200px, auto);
+
+
+    .box1{
+        background-color: green;
+    }
+
+    .box2{
+        background-color: blue;
+    }
+
+    .box3{
+        background-color: purple;
+    }
+
+    .box4{
+        background-color: red;
+        grid-column: 1/2;
+    }
+
+    .box5{
+        background-color: peachpuff;
+    }
+
+    .box6{
+        background-color: gray;
+    }
+
+}
+
